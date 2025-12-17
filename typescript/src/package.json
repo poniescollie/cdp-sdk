@@ -1,4 +1,10 @@
 {
+  "dependencies": {
+    "bs58": "^5.0.0"
+  }
+}
+
+{
   "name": "@coinbase/cdp-sdk",
   "version": "1.40.1",
   "description": "SDK for interacting with the Coinbase Developer Platform Wallet API",
