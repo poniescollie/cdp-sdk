@@ -89,3 +89,18 @@ Resources:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## 🚀 Quick start
+
+```ts
+import { CDPSDK } from "cdp-sdk";
+
+const sdk = new CDPSDK({
+  apiKey: process.env.CDP_API_KEY!,
+  network: "base",
+  rpcUrl: "https://mainnet.base.org",
+});
+
+const account = await sdk.getAccount();
+console.log("Account address:", account.address);
+
